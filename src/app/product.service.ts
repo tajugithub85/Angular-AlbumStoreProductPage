@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
-import { Response } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
+
 
 
 @Injectable()
 export class ProductService {
 
-  constructor(private _http: Http) { }
- 
+  constructor(private http: HttpClient) { }
+
 }
