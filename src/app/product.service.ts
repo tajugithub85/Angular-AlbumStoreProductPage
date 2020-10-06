@@ -6,8 +6,6 @@ import 'rxjs/add/operator/do';
 
 @Injectable()
 export class ProductService {
-  private _producturl = 'app/products.json';
+ // private _producturl = '../assets/album.json'
   constructor(private _http: Http) { }
-   
-   
-}     
+}
